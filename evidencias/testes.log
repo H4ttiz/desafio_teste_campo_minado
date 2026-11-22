@@ -1,0 +1,37 @@
+
+> desafio_teste_campo_minado@1.0.0 coverage
+> node --test --experimental-test-coverage
+
+✔ CT01 - tabuleiro 18x14, 40 bombas e nenhuma casa aberta (0.654792ms)
+✔ CT02 - revela bomba e encerra com derrota (0.166625ms)
+✔ CT03 - conta bombas adjacentes inclusive na borda (0.067042ms)
+✔ CT04 - expansao de casa vazia revela area e alcanca vitoria (0.702125ms)
+✔ CT05 - bandeira bloqueia revelacao e pode ser removida (0.079291ms)
+✔ CT06 - revelar a mesma casa nao duplica a contagem (0.04125ms)
+✔ CT07 - rejeita coordenadas fora dos limites e fracionarias (0.2465ms)
+✔ CT08 - rejeita quantidade incorreta, duplicadas e posicoes invalidas (0.07325ms)
+✔ CT09 - permite 40 bandeiras e impede a quadragesima primeira (0.076667ms)
+✔ CT10 - bandeira em casa segura impede vitoria ate sua remocao (0.196375ms)
+✔ CT11 - sorteio padrao cria partida com a configuracao exigida (0.2025ms)
+✔ CT12 - casa numerica nao propaga: revela somente a si mesma (0.040875ms)
+✔ CT13 - contagem de vizinhos distingue valores 1, 2 e 3 (0.045417ms)
+✔ CT14 - consultar retorna shape completo para casa bandeirada (0.033334ms)
+✔ CT15 - bandeira nao pode ser colocada em casa ja revelada (0.033416ms)
+ℹ tests 15
+ℹ suites 0
+ℹ pass 15
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 42.544292
+ℹ start of coverage report
+ℹ -----------------------------------------------------------------
+ℹ file             | line % | branch % | funcs % | uncovered lines
+ℹ -----------------------------------------------------------------
+ℹ src              |        |          |         | 
+ℹ  campo-minado.js | 100.00 |   100.00 |  100.00 | 
+ℹ -----------------------------------------------------------------
+ℹ all files        | 100.00 |   100.00 |  100.00 | 
+ℹ -----------------------------------------------------------------
+ℹ end of coverage report
